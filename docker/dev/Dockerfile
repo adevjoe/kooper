@@ -13,8 +13,6 @@ RUN wget https://github.com/golangci/golangci-lint/releases/download/v${GOLANGCI
     tar zxvf golangci-lint-${GOLANGCI_LINT_VERSION}-linux-amd64.tar.gz --strip 1 -C /usr/local/bin/ && \
     rm golangci-lint-${GOLANGCI_LINT_VERSION}-linux-amd64.tar.gz
 
-RUN go get -u github.com/vektra/mockery/...
-
 # Create user.
 ARG uid=1000
 ARG gid=1000

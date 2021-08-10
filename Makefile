@@ -42,6 +42,7 @@ test: build ## Runs unit tests out of CI.
 
 .PHONY: check
 check: build ## Runs checks.
+	@./hack/scripts/check.sh
 	@$(DOCKER_RUN_CMD) /bin/sh -c '$(CHECK_CMD)'
 
 .PHONY: ci-unit-test

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus"
 	"github.com/adevjoe/kooper/v2/controller"
+	"github.com/prometheus/client_golang/prometheus"
 )
 
 const (
