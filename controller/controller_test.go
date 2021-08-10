@@ -19,10 +19,10 @@ import (
 	kubetesting "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/spotahome/kooper/v2/controller"
-	"github.com/spotahome/kooper/v2/controller/controllermock"
-	"github.com/spotahome/kooper/v2/controller/leaderelection"
-	"github.com/spotahome/kooper/v2/log"
+	"github.com/adevjoe/kooper/v2/controller"
+	"github.com/adevjoe/kooper/v2/controller/controllermock"
+	"github.com/adevjoe/kooper/v2/controller/leaderelection"
+	"github.com/adevjoe/kooper/v2/log"
 )
 
 // NewNamespace returns a Namespace retriever.

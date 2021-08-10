@@ -4,7 +4,7 @@ Kooper is a Go library to create simple and flexible Kubernetes [controllers]/op
 
 In other words, is a small alternative to big frameworks like [Kubebuilder] or [operator-framework].
 
-**Library refactored (`v2`), for `v2` use `import "github.com/spotahome/kooper/v2"`**
+**Library refactored (`v2`), for `v2` use `import "github.com/adevjoe/kooper/v2"`**
 
 ## Features
 
@@ -25,7 +25,7 @@ First of all, we used `v2` instead of `v[01]`, because it changes the library as
 Import with:
 
 ```golang
-import "github.com/spotahome/kooper/v2"
+import "github.com/adevjoe/kooper/v2"
 ```
 
 Regarding the changes... To know all of them check the changelog but mainly we simplified everything. The
@@ -197,8 +197,8 @@ The solution to these problems, is to embrace simplicity once again, and mainly 
 [travis-url]: https://travis-ci.org/spotahome/kooper
 [goreport-image]: https://goreportcard.com/badge/github.com/spotahome/kooper
 [goreport-url]: https://goreportcard.com/report/github.com/spotahome/kooper
-[godoc-image]: https://pkg.go.dev/badge/github.com/spotahome/kooper/v2
-[godoc-url]: https://pkg.go.dev/github.com/spotahome/kooper/v2
+[godoc-image]: https://pkg.go.dev/badge/github.com/adevjoe/kooper/v2
+[godoc-url]: https://pkg.go.dev/github.com/adevjoe/kooper/v2
 [examples]: examples/
 [grafana-dashboard]: https://grafana.com/dashboards/7082
 [controllers]: https://kubernetes.io/docs/concepts/architecture/controller/

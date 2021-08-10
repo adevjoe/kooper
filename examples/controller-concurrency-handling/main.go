@@ -20,9 +20,9 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/spotahome/kooper/v2/controller"
-	"github.com/spotahome/kooper/v2/log"
-	kooperlogrus "github.com/spotahome/kooper/v2/log/logrus"
+	"github.com/adevjoe/kooper/v2/controller"
+	"github.com/adevjoe/kooper/v2/log"
+	kooperlogrus "github.com/adevjoe/kooper/v2/log/logrus"
 )
 
 var (

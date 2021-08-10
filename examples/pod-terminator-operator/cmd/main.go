@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	kooperlog "github.com/spotahome/kooper/v2/log"
-	kooperlogrus "github.com/spotahome/kooper/v2/log/logrus"
+	kooperlog "github.com/adevjoe/kooper/v2/log"
+	kooperlogrus "github.com/adevjoe/kooper/v2/log/logrus"
 	"k8s.io/client-go/kubernetes"
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"

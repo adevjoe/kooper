@@ -24,7 +24,7 @@ Lets take and example of creating using the default leader election service.
 ```golang
 import (
     ...
-    "github.com/spotahome/kooper/v2/operator/controller/leaderelection"
+    "github.com/adevjoe/kooper/v2/operator/controller/leaderelection"
     ...
 )
 
@@ -40,7 +40,7 @@ Another example customizing the lock would be:
 ```golang
 import (
     ...
-    "github.com/spotahome/kooper/v2/operator/controller/leaderelection"
+    "github.com/adevjoe/kooper/v2/operator/controller/leaderelection"
     ...
 )
 
