@@ -1,4 +1,4 @@
-module github.com/spotahome/kooper/v2
+module github.com/adevjoe/kooper/v2
 
 require (
 	github.com/prometheus/client_golang v1.11.0
