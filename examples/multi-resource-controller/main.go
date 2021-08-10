@@ -74,10 +74,10 @@ func run() error {
 		Retriever: controller.MustRetrieverFromListerWatcher(
 			&cache.ListWatch{
 				ListFunc: func(options metav1.ListOptions) (runtime.Object, error) {
-					return k8scli.AppsV1().Deployments("").List(options)
+					return k8scli.AppsV1().Deployments("").List(context.TODO(), options)
 				},
 				WatchFunc: func(options metav1.ListOptions) (watch.Interface, error) {
-					return k8scli.AppsV1().Deployments("").Watch(options)
+					return k8scli.AppsV1().Deployments("").Watch(context.TODO(), options)
 				},
 			},
 		),
@@ -97,10 +97,10 @@ func run() error {
 		Retriever: controller.MustRetrieverFromListerWatcher(
 			&cache.ListWatch{
 				ListFunc: func(options metav1.ListOptions) (runtime.Object, error) {
-					return k8scli.AppsV1().StatefulSets("").List(options)
+					return k8scli.AppsV1().StatefulSets("").List(context.TODO(), options)
 				},
 				WatchFunc: func(options metav1.ListOptions) (watch.Interface, error) {
-					return k8scli.AppsV1().StatefulSets("").Watch(options)
+					return k8scli.AppsV1().StatefulSets("").Watch(context.TODO(), options)
 				},
 			},
 		),
